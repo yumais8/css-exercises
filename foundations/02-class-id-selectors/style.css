@@ -1,0 +1,22 @@
+.basic {
+    background-color: rgb(255, 167, 167);
+    font-family:Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.unique-font-size{
+    font-size:24px;
+}
+/* Later css style will overwrite previous ones. It does not depend on the class order appeared in html. 
+It depends on the css style order. */
+
+.no-background{
+    font-size:36px;
+    color:#0000ff;
+}
+
+#very-unique{
+    background-color: hsl(120, 73%, 75%);
+    font-weight:bold;
+}
+
+/* It does not matter if it's class or Id. they overwrite each other depending on the order */
