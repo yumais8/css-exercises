@@ -67,3 +67,34 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* My Solutions */
+.modal{
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+}
+
+.icon{
+  flex-shrink: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  font-size:larger;
+  font-weight: bold;
+  align-items: center;  /* missed  */
+}
+
+/* Just need to add margin to text */
+/* .text{
+  margin-bottom: 10px;
+} */
+
+.right-side
+{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

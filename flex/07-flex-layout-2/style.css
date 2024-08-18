@@ -27,3 +27,69 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* My solution */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size:32px;
+  font-weight: 900;
+  display: flex;            /* Is there a better way ? */
+  align-items: center;
+  padding-left: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  min-width: 300px;
+  flex: 1 0 auto;
+  padding: 16px;
+}
+
+ul {
+  list-style: none;
+  /* I forgot */
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: pink;
+}
+
+.card {
+  width: 280px;
+  height: 300px;
+  padding: 10px 20px;
+  margin: 20px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  flex: initial;
+  padding: 48px; 
+}
+
